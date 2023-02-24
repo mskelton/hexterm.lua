@@ -23,5 +23,6 @@ build = {
 	type = "builtin",
 	modules = {
 		hexterm = "src/hexterm.lua",
+		["hexterm.xterm-colors"] = "src/xterm-colors.lua",
 	},
 }

@@ -1,5 +1,16 @@
-local xterm_colors = require("src.xterm-colors")
-local utils = require("src.utils")
+local xterm_colors = require("hexterm.xterm-colors")
+
+--- @param t table
+--- @param value any
+local function index_of(t, value)
+	for i, v in ipairs(t) do
+		if v == value then
+			return i
+		end
+	end
+
+	return nil
+end
 
 -- Get r/g/b int values of hex string
 --- @param hex string
@@ -44,7 +55,7 @@ return function(hex)
 	end
 
 	-- Check if there is a direct correspondence
-	local direct = utils.index_of(xterm_colors, hex)
+	local direct = index_of(xterm_colors, hex)
 	if direct ~= nil then
 		return direct - 1
 	end
