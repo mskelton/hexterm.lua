@@ -5,7 +5,7 @@ Get the xterm closest color to a hexadecimal color
 ## Installation
 
 ```bash
-luarocks install json-lua
+luarocks install hexterm
 ```
 
 ## Usage
