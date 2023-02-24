@@ -4,12 +4,12 @@ rockspec_format = "3.0"
 package = "hexterm"
 version = "1.0-1"
 source = {
-	url = "git+https://github.com/mskelton/hexterm",
+	url = "git+https://github.com/mskelton/hexterm.lua",
 }
 description = {
 	summary = "Get the xterm closest color to a hexadecimal color",
-	homepage = "https://github.com/mskelton/hexterm",
-	issues_url = "https://github.com/mskelton/hexterm/issues",
+	homepage = "https://github.com/mskelton/hexterm.lua",
+	issues_url = "https://github.com/mskelton/hexterm.lua/issues",
 	maintainer = "Mark Skelton",
 	license = "ISC",
 }
