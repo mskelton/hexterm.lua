@@ -15,7 +15,8 @@ end
 function TestStandardColors()
 	lu.assertEquals(hexterm("#000000"), 0)
 	lu.assertEquals(hexterm("#ffffff"), 15)
-	lu.assertEquals(hexterm("ffaa33"), 215)
+	lu.assertEquals(hexterm("#ffaa33"), 215)
+	lu.assertEquals(hexterm("#78909c"), 246)
 end
 
 os.exit(lu.LuaUnit.run())

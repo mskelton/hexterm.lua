@@ -16,7 +16,7 @@ end
 --- @param hex string
 local function split_hex(hex)
 	local r = tonumber(hex:sub(1, 2), 16)
-	local g = tonumber(hex:sub(3, 3), 16)
+	local g = tonumber(hex:sub(3, 4), 16)
 	local b = tonumber(hex:sub(5, 6), 16)
 
 	return r, g, b
