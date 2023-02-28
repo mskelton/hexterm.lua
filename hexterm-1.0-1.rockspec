@@ -22,7 +22,6 @@ test_dependencies = {
 build = {
 	type = "builtin",
 	modules = {
-		hexterm = "src/hexterm.lua",
-		["hexterm.xterm-colors"] = "src/xterm-colors.lua",
+		hexterm = "hexterm.lua",
 	},
 }
