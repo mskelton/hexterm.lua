@@ -1,5 +1,5 @@
 local lu = require("luaunit")
-local hexterm = require("src.hexterm")
+local hexterm = require("hexterm")
 
 function TestMissingHash()
 	lu.assertEquals(hexterm("000000"), 0)
